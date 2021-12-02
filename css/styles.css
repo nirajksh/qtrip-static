@@ -143,3 +143,8 @@ footer {
     position: fixed;
   }
 }
+/*niraj created*/
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
