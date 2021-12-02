@@ -25,15 +25,15 @@
   <!-- TODO: MODULE_LAYOUT -->
   <!-- 1. Use appropriate css classes on nav element. -->
   <!-- 2. Add child elements as required. -->
-  <nav class="navbar navbar-expand-md bg-white navbar-dark">
-    <a class="nav-link " href="#">QTrip</a>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="nav-link " href="#" style="color:aliceblue;">QTrip</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#" >Home</a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="pages/adventures/index.html">Explore</a>
@@ -46,8 +46,15 @@
   <!-- 1. Use appropriate css classes on the hero image container element. -->
   <!-- 2. Add child elements as required. -->
 <div class="flex-container">
-   <div class="hero-image d-flex " >
-   </div> 
+    <div class="hero-image d-flex justify-content-center align-items-center text-white flex-column text-center">
+        <div class="container">
+            <h1>Welcome to QTrip</h1>
+            <p class="hero-subheading">
+                Explore the world with fantastic places to venture around
+            </p>
+            <input class="hero-input" placeholder="Search a City" />
+        </div>
+    </div>
   </div> 
 
 
